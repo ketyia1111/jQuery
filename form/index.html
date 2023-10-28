@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <title>Form Validation</title>
+</head>
+<body>
+    <header>
+        <h1>Form Validation</h1>
+    </header>
+    
+    <main>
+        <form action="" method="post">
+            <div id="textSection">
+                <p>
+                    <lacel for="Text">Text</lacel>
+                </p>
+                <p class="alert">
+                    Alert : Text
+                </p>
+                <input type="text" name="text" value="">
+            
+            </div>
+
+            <div id="radioSection">
+                <p>Radio</p>
+                <p class="alert">Alert : Radio</p>
+
+                <input type="radio" name="radio1" id="radio1" value="radio1">
+                <label for="radio1">radio1</label>
+                
+                <input type="radio" name="radio2" id="radio2" value="radio2">
+                <label for="radio2">radio2</label>
+                
+                <input type="radio" name="radio3" id="radio3" value="radio3">
+                <label for="radio3">radio3</label>
+            </div>
+            
+            <div id="checkboxSection">
+                <p>Checkbox</p>
+                <p class="alert">Alert : Checkbox</p>
+
+                <input type="checkbox" name="checkbox" id="checkbox1" value="checkbox1">
+                <label for="checkbox1">Checkbox1</label>
+                
+                <input type="checkbox" name="checkbox" id="checkbox2" value="checkbox2">
+                <label for="checkbox2">Checkbox2</label>
+                
+                <input type="checkbox" name="checkbox" id="checkbox3" value="checkbox3">
+                <label for="checkbox3">Checkbox3</label>
+                
+                <input type="checkbox" name="checkbox" id="checkbox4" value="checkbox4">
+                <label for="checkbox4">Checkbox4</label>
+            </div>
+
+            <div id="selectSection">
+                <p>Select</p>
+                <p class="alert">Alert : Select</p>
+
+                <select>
+                    <option value="none">---------</option>
+                    <option value="Select1">Select1</option>
+                    <option value="Select2">Select2</option>
+                    <option value="Select3">Select3</option>
+                </select>
+            </div>
+
+            <div id="textareaSection">
+                <p>
+                    <label for="TextArea">TextArea</label>
+                </p>
+                <p class="alert">Alert : TextArea</p>
+
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+
+            <input type="submit" value="submit" id="submitBtn">
+        </form>
+    </main>
+</body>
+</html>
